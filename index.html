@@ -19,9 +19,66 @@
     </head>
     <body>
         <div class="page">
-            <header class="header"></header>
+            <header class="header">
+                <nav class="nav">
+                    <img
+                        src="./images/logo_coffeeshop_dark.svg"
+                        alt="Logotipo Triple Espresso"
+                        class="nav__logo"
+                    />
+                    <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+                    <ul class="nav__links">
+                        <li>
+                            <a href="#recetas" class="nav__link">Recetas</a>
+                        </li>
+                        <li>
+                            <a href="#reservar" class="nav__link"
+                                >Reservar una mesa</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#footer" class="nav__link">Contactos</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div>
+                    <h1 class="header__title">
+                        <span class="header__span-accent"
+                            >Café de especialidad</span
+                        >
+                        en&nbspTriple Peaks
+                    </h1>
+                    <p class="header__description">
+                        ¡Te damos la bienvenida a nuestra zona de estudio! Aquí
+                        tenemos café para darte energía y motivar tu
+                        creatividad.
+                    </p>
+                </div>
+                <img
+                    src="./images/inside_coffee_shop.png"
+                    alt="Ilustración 'Dentro de la cafeteria'"
+                    class="header__image"
+                />
+                <div class="header__paragraph">
+                    <ul class="header__footer">
+                        <li>Horario:</li>
+                        <li>Lunes a Viernes (de 10:00h a 19:00h)</li>
+                        <li>Sábados y Domingos (de 11:00h a 18:00h)</li>
+                    </ul>
+                    <p>Avenida del Éxito 200, Ciudad Triple Peaks</p>
+                </div>
+            </header>
+
             <main class="content">
-                <section class="recipes"></section>
+                <section class="recipes">
+                    <h2 class="recipes__title">Recetas</h2>
+                    <p class="recipes__subtlite">
+                        Echa un vistazo a las recetas que hemos reunido para que
+                        elabores tus propios snacks.
+                    </p>
+                    <div class="recipes__videos"></div>
+                </section>
                 <section class="reservation"></section>
             </main>
             <footer class="footer"></footer>
