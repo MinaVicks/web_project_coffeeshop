@@ -240,8 +240,30 @@
     margin: 0 auto;
 }
 .form__checkbox {
+    /*
     border-radius: 2px;
     width: 20px;
     height: 20px;
+    margin-right: 12px;*/
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+.form__pseudo-item {
+    display: inline-block; /* ahora puedes especificar el ancho y la altura del elemento span */
+    vertical-align: middle; /* No conoces esta propiedad aún. Esto establecerá la alineación vertical adecuada para el elemento y el texto. Esta propiedad funciona en conjunto con inline-block */
+    width: 20px;
+    height: 20px;
+    border: 1px solid #838383;
+    border-radius: 2px;
     margin-right: 12px;
+}
+.form__checkbox:checked + .form__pseudo-item_type_checkbox {
+    background-image: url(../images/check.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2f80ed;
 }
