@@ -175,15 +175,18 @@
     font-size: 44px;
     line-height: 52px;
 
-    margin: 100px auto 0;
+    margin: 100px auto 80px;
 }
 
 .reservation__form {
     display: flex;
     flex-direction: column;
     max-width: 385px;
-    margin: 80px auto 120px;
+    margin: 0 auto 120px;
     border: 0px;
+}
+.form {
+    border: 0px solid;
 }
 .form__fieldset {
     border: 0px solid;
@@ -235,7 +238,7 @@
     opacity: 70%;
 }
 
-.form__item_el_terminos {
+.form__label_terminos {
     display: flex;
     margin: 0 auto;
 }
