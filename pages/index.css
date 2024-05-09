@@ -167,6 +167,7 @@
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: border-box;
+    padding-top: 100px;
 }
 .reservation__title {
     font-family: Inter;
@@ -174,8 +175,7 @@
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-
-    margin: 100px auto 80px;
+    margin: 0 auto 80px;
 }
 
 .reservation__form {
