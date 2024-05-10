@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="shortcut icon" href="favicon.ico" />
-        <link rel="stylesheet" href="./vendor/normalize.css" />
         <link rel="stylesheet" href="./pages/index.css" />
         <title>Cafeteria</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -67,10 +66,10 @@
                     <p class="header__paragraph">
                         Sábados y Domingos (de 11:00h a 18:00h)
                     </p>
+                    <p class="header__paragraph header__address">
+                        Avenida del Éxito 200, Ciudad Triple Peaks
+                    </p>
                 </div>
-                <p class="header__paragraph header__address">
-                    Avenida del Éxito 200, Ciudad Triple Peaks
-                </p>
             </header>
 
             <main class="content">
@@ -187,7 +186,42 @@
                     </form>
                 </section>
             </main>
-            <footer id="footer" class="footer"></footer>
+            <footer id="footer" class="footer">
+                <div class="footer__content">
+                    <img
+                        src="./images/logo_coffeeshop_light.svg"
+                        alt="Logotipo Triple Espresso"
+                        class="footer__logo"
+                    />
+                    <div class="footer__social">
+                        <div class="footer__social-heading">Redes Sociales</div>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__social-link">
+                                    <img
+                                        src="./images/facebook_white.svg"
+                                        alt="Link Facebook"
+                                        class="footer__social-icon"
+                                    />
+                                    Facebook</a
+                                >
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__social-link">
+                                    <img
+                                        src="./images/instagram_white.svg"
+                                        alt="Link Instagram"
+                                        class="footer__social-icon"
+                                    />Instagram</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__circle"></div>
+
+                <p class="footer__copyright">©2024 Maga Romero</p>
+            </footer>
         </div>
     </body>
 </html>
